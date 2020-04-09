@@ -38,7 +38,7 @@
             "metadata": {
                 "description": "The location of resources, such as templates and DSC modules, that the template depends on"
             },
-            "defaultValue": "https://github.com/xintwu/createtestenv"
+            "defaultValue": "https://github.com/xintwu/createtestenv/"
         },
         "_artifactsLocationSasToken": {
             "type": "securestring",
