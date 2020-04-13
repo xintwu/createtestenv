@@ -1,7 +1,7 @@
 Param (
     [string]$domainToJoin,
     [string]$domainUsername,
-    [string]$domainPassword,
+    [string]$domainPassword
 )
 
 $domainPasswordConvert = $domainPassword | ConvertTo-SecureString -AsPlainText -Force
